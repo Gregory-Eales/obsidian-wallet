@@ -1,0 +1,23 @@
+{
+  "name": "obsidian-wallet",
+  "version": "1.0.0",
+  "description": "a bitcoin wallet powered by electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gregory-Eales/obsidian-wallet.git"
+  },
+  "keywords": [],
+  "author": "Gregory Eales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gregory-Eales/obsidian-wallet/issues"
+  },
+  "homepage": "https://github.com/Gregory-Eales/obsidian-wallet#readme",
+  "devDependencies": {
+    "electron": "^11.2.0"
+  }
+}
