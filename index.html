@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-</head>
-<body style="background: white;">
-    <h1>Hello World!</h1>
-    <p>
-        We are using node <script>document.write(process.versions.node)</script>,
-        Chrome <script>document.write(process.versions.chrome)</script>,
-        and Electron <script>document.write(process.versions.electron)</script>.
-    </p>
-</body>
+   <head>
+      <meta charset = "UTF-8">
+      <title>Obsidian Wallet</title>
+      <link rel = "stylesheet" 
+         href = "./bower_components/bootstrap/dist/css/bootstrap.min.css" />
+   </head>
+   
+   <body>
+
+     <div class="container">
+        <div class="row justify-content-center align-items-center" style="height:100vh">
+            <div class="col-4">
+                <div class="card">
+                  <img src="logo.png" alt="Italian Trulli">
+                    <div class="card-body">
+                        <form action="" autocomplete="off">
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="hash-phrase">
+                            </div>
+                            <center>
+                            <button type="button" id="sendlogin" class="btn btn-primary">unlock</button>
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </body>
 </html>

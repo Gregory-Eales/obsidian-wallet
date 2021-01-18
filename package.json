@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Gregory-Eales/obsidian-wallet#readme",
   "devDependencies": {
     "electron": "^11.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
 }
