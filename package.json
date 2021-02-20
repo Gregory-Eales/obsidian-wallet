@@ -21,6 +21,8 @@
     "electron": "^11.2.0"
   },
   "dependencies": {
-    "jquery": "^3.5.1"
+    "elliptic": "^6.5.4",
+    "jquery": "^3.5.1",
+    "secure-random": "^1.1.2"
   }
 }
